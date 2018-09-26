@@ -7,4 +7,12 @@ img.img-thumbnail {
   height: 200px;
 }
 
+div.main {
+  margin: 0 auto;
+}
+
+div.personal-info {
+  background-image: url("/images/watercolour.jpg");
+}
+
 /*# sourceMappingURL=cv-style.css.map */
