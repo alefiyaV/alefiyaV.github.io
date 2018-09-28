@@ -1,18 +1,64 @@
 body {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Mukta", sans-serif;
+  color: #3d3d3d;
 }
 
-img.img-thumbnail {
-  width: 200px;
-  height: 200px;
+a:link {
+  font-family: "Mukta", sans-serif;
+  text-decoration: none;
+  color: #565656;
+}
+
+/* visited link */
+a:visited {
+  font-family: "Mukta", sans-serif;
+  text-decoration: none;
+  color: #565656;
+}
+
+a:hover {
+  font-family: "Mukta", sans-serif;
+  color: #ffc300;
+}
+
+/* selected link */
+a:active {
+  font-family: "Mukta", sans-serif;
+  color: #ffc300;
 }
 
 div.main {
   margin: 0 auto;
+  margin: 50px;
+  border: 3px solid #ffc300;
+  padding: 14px;
 }
 
-div.personal-info {
-  background-image: url("/images/watercolour.jpg");
+h2 {
+  float: left;
+  clear: both;
+  display: inline;
+}
+
+div.img-container img.profile {
+  border-radius: 5px;
+  border: thin solid black;
+  margin: 20px;
+  box-shadow: 5px 5px 10px #565656;
+}
+
+i.fa-envelope, i.fa-phone, i.fa-github, i.fa-linkedin {
+  margin: 5px;
+}
+
+img.profile {
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  float: left;
+  clear: both;
+  display: inline;
+  margin: 1em 0.4em;
 }
 
 /*# sourceMappingURL=cv-style.css.map */
