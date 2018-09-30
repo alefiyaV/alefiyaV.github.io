@@ -1,10 +1,33 @@
 $darkgray: #565656;
+$accent: #708771;
+$forest: #344935;
 
 body {
   font-family: 'Mukta', sans-serif;
   color: #3d3d3d;
-}
 
+  h2 {
+    font-weight: 1000;
+    color: $forest;
+    font-size: 3em;
+
+  }
+  h3 {
+    font-weight: 700;
+    color: $accent;
+    padding-top: 17px;
+  }
+  h4 {
+    font-weight: bolder;
+    padding-top: 10px;
+
+  }
+
+  h5 {
+    font-weight: bold;
+    padding-top: 10px;
+  }
+}
 
 
 a:link {
@@ -23,52 +46,63 @@ a:visited {
 
 a:hover {
   font-family: 'Mukta', sans-serif;
-    color: #ffc300;
+    color: $accent;
 }
 
 /* selected link */
 a:active {
   font-family: 'Mukta', sans-serif;
-    color: #ffc300;
+    color: $accent;
 }
 
 div.main {
   margin: 0 auto;
-  margin: 50px;
-  border: 3px solid #ffc300;
-  padding: 14px;
+  border: 3px solid $accent;
+  padding: 20px;
+  width: 75%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 2px;
 }
 
-h2 {
-  float: left;
-  clear: both;
+
+
+div.inline {
   display: inline;
+  margin: 15px;
+  padding-left: 3.6em;
+
+  }
+
+.info-box {
+  padding: 0px;
+  margin: 0px;
+
 }
 
-div.personal-info {
-
-
-}
-
-div.img-container img.profile {
-
-  border-radius: 5px;
-  border: thin solid black;
-  margin: 20px;
-  box-shadow: 5px 5px 10px $darkgray;
-}
-i.fa-envelope, i.fa-phone, i.fa-github, i.fa-linkedin {
+i.fa-envelope, i.fa-phone, i.fa-github, i.fa-linkedin, i.fa-print {
   margin: 5px;
 }
 
 img.profile {
   border-radius: 50%;
-  width: 5em;
-  height: 5em;
+  width: 8em;
+  height: 8em;
   float: left;
   clear: both;
   display: inline;
   margin: 1em 0.4em;
-
+  margin-right: 20px;
 }
+
+div.personal-info {
+  margin: 0px;
+  padding-right: 14px;
+  padding: 0px;
+}
+
+p.air {
+  padding-right: 10px;
+}
+
 
